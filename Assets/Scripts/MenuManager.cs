@@ -1,16 +1,15 @@
 using UnityEngine;
+using TMPro;
 
 public class MenuManager : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public TextMeshProUGUI jumpCountText; // Texto para exibir o número de pulos
+    public TextMeshProUGUI timerText;     // Texto para exibir o tempo decorrido
+
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        // Exibe os dados armazenados em GameData
+        jumpCountText.text = "Pulos: " + GameData.jumpCount;
+        timerText.text = "Tempo: " + GameData.totalTime.ToString("F2") + " segundos";
     }
 }

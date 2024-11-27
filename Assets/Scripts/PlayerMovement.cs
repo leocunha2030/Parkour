@@ -11,13 +11,21 @@ public class PlayerMovement : MonoBehaviour
     private Vector3 velocity;
     private bool isGrounded;
 
+    private int jumpCount = 0;      // Contador de pulos
+    private float timer = 0f;      // Contador de tempo
+
     void Start()
     {
         controller = GetComponent<CharacterController>();
+        jumpCount = 0;
+        timer = 0f;
     }
 
     void Update()
     {
+        // Atualiza o tempo decorrido
+        timer += Time.deltaTime;
+
         // Verifica se o jogador está no chão
         isGrounded = controller.isGrounded;
         if (isGrounded && velocity.y < 0)
@@ -39,10 +47,18 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             velocity.y = Mathf.Sqrt(jumpForce * -2f * gravity);
+            jumpCount++; // Incrementa o contador de pulos
         }
 
         // Aplica gravidade
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
+    }
+
+    void OnDisable()
+    {
+        // Salva os dados no GameData antes de sair da cena
+        GameData.jumpCount = jumpCount;
+        GameData.totalTime = timer;
     }
 }
