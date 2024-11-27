@@ -200,7 +200,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 3
   currentHealth: 3
-  sceneName: SampleScene
+  sceneName: GameOver
 --- !u!4 &100261032 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4670857609672192, guid: 5387a77a1b6992f409e6f9f5030db072, type: 3}
@@ -1012,7 +1012,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac1fe603992d54f44918dd93bab397d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: SampleScene
+  sceneName: Victory
 --- !u!65 &789067927
 BoxCollider:
   m_ObjectHideFlags: 0
