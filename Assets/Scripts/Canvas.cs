@@ -3,13 +3,31 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public string sceneToLoad; // Nome da cena a ser carregada, configurável no Inspector
+    public string sceneToPlay; // Nome da cena padrão a ser carregada
+    public string easyScene;   // Nome da cena para o modo Easy
+    public string hardScene;   // Nome da cena para o modo Hard
 
-    public void PlayGame()
+    public void PlayDefault()
     {
-        if (!string.IsNullOrEmpty(sceneToLoad))
+        if (!string.IsNullOrEmpty(sceneToPlay))
         {
-            SceneManager.LoadScene(sceneToLoad);
+            SceneManager.LoadScene(sceneToPlay);
+        }
+    }
+
+    public void PlayEasy()
+    {
+        if (!string.IsNullOrEmpty(easyScene))
+        {
+            SceneManager.LoadScene(easyScene);
+        }
+    }
+
+    public void PlayHard()
+    {
+        if (!string.IsNullOrEmpty(hardScene))
+        {
+            SceneManager.LoadScene(hardScene);
         }
     }
 
