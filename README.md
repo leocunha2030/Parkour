@@ -1,7 +1,7 @@
 ## Platform King
 
 - *Descrição:*
-    - O Platform King é um jogo de parkour ambientado no Velho Oeste, inspirado em Only Up, combina exploração vertical com uma estética detalhada de faroeste. O objetivo do jogador é escalar estruturas desafiadoras, enfrentar obstáculos criativos e alcançar o topo do cenário enquanto explora o mundo caótico e imprevisível do Oeste Selvagem.
+    - O Platform King é um jogo de parkour ambientado no Velho Oeste, inspirado em Only Up, combina exploração vertical com uma estética detalhada de faroeste. O objetivo do jogador é escalar estruturas desafiadoras, enfrentar obstáculos criativos e alcançar o topo do cenário enquanto explora o mundo do Velho Oeste Americano.
 
 - *Tecnologias utilizadas:*
     - Unity Hub
