@@ -1,16 +1,15 @@
 using UnityEngine;
-using UnityEngine.SceneManagement; // Necessário para trocar de cena
+using UnityEngine.SceneManagement; 
 
 public class SceneChangeTrigger : MonoBehaviour
 {
-    public string sceneName; // Nome da cena para carregar
+    public string sceneName; 
 
     private void OnTriggerEnter(Collider other)
     {
-        // Verifica se o objeto que entrou no trigger possui a tag "Player"
         if (other.CompareTag("Player") && !string.IsNullOrEmpty(sceneName))
         {
-            SceneManager.LoadScene(sceneName); // Carrega a cena especificada
+            SceneManager.LoadScene(sceneName); 
         }
     }
 }

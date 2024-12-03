@@ -3,9 +3,9 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public string sceneToPlay; // Nome da cena padrão a ser carregada
-    public string easyScene;   // Nome da cena para o modo Easy
-    public string hardScene;   // Nome da cena para o modo Hard
+    public string sceneToPlay; 
+    public string easyScene;   
+    public string hardScene;   
 
     public void PlayDefault()
     {
