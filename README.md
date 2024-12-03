@@ -32,9 +32,10 @@
     - Foi utilizado o Trello para organização do projeto, empregando um pouco do método Scrum para um desenvolvimento mais ágil. O projeto foi feito dando prioridade às partes mais urgentes, como movimentação, colisão e física, e, logo depois, cenário, sons e as demais partes necessárias.
 
 - *Desenvolvedores:*
-    - Felipe Picasso: https://github.com/leocunha2030
+    - Felipe Frantz Picasso --> GitHub: https://github.com/FelipeFPicasso
 
-    - Leonardo Cunha: https://github.com/FelipeFPicasso
+    - Leonardo Cezar Russi Cunha --> GitHub: https://github.com/leocunha2030
+    
 
 
 
