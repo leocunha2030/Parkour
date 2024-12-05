@@ -9,17 +9,11 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/Scenes/Victory.unity
-    guid: 6b004a815a1eb304fa5d1986668becb8
-  - enabled: 0
-    path: Assets/Scenes/Principal.unity
-    guid: 467fb8f929912704280de50ce9276c8a
-  - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 08f15ee32dd7e484a84dbdd126d5f4cb
   - enabled: 1
-    path: Assets/Scenes/GameOver.unity
-    guid: 952901fe936903f429f6bece13ecb21d
+    path: Assets/Scenes/DificultyMenu.unity
+    guid: e0aca0f9ce688ec4e995c5050f9bb7bb
   - enabled: 1
     path: Assets/Scenes/Normal.unity
     guid: 45ebe4fcb9fef8e4ba639dda40c80968
@@ -27,8 +21,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Hard.unity
     guid: 4b77bf4c6925021448e992b0de564c04
   - enabled: 1
-    path: Assets/Scenes/DificultyMenu.unity
-    guid: e0aca0f9ce688ec4e995c5050f9bb7bb
+    path: Assets/Scenes/Victory.unity
+    guid: 6b004a815a1eb304fa5d1986668becb8
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 952901fe936903f429f6bece13ecb21d
+  - enabled: 0
+    path: Assets/Scenes/Principal.unity
+    guid: 467fb8f929912704280de50ce9276c8a
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
